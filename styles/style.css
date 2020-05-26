@@ -1,0 +1,12 @@
+
+     .img_blog_block {
+            object-fit: cover;
+            height: 400px;
+        }
+.img_logo{
+    width: 250px;
+    background-size: 100%;;
+}
+.radius{
+    border-radius: 10px;
+}

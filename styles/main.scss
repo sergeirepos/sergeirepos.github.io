@@ -1,0 +1,550 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+//color
+$color-top:#09223F;
+$color-white:white;
+
+//?color//
+
+
+
+
+//img-fig
+.img_1 {
+    margin-top: 10px;
+    margin-left: 50px;
+    z-index: 2;
+    position: absolute;
+
+}
+
+.img_2 {
+    margin-top: 160px;
+    margin-left: 50px;
+    z-index: 3;
+    position: absolute;
+}
+
+.img_3 {
+    margin-top: 380px;
+    margin-left: 50px;
+    z-index: 4;
+    position: absolute;
+}
+
+.img_4 {
+    margin-top: 150px;
+    margin-left: 1240px;
+    z-index: 5;
+    position: absolute;
+}
+
+.img_5 {
+    margin-top: 110px;
+    margin-left: 160px;
+    z-index: 2;
+    position: absolute;
+}
+
+.img_6 {
+    margin-top: 44px;
+    margin-left: 210px;
+    z-index: 3;
+    position: absolute;
+}
+
+.img_7 {
+    margin-top: 50px;
+    margin-left: 1025px;
+    z-index: 4;
+    position: absolute;
+}
+
+.img_8 {
+    margin-top: 300px;
+    margin-left: 940px;
+    z-index: 5;
+    position: absolute;
+    width: 550px;
+}
+
+
+
+// ?header
+.w-55 {
+    width: 55% !important;
+}
+
+.w-40 {
+    width: 40% !important;
+}
+
+//section-start//
+.section-start {
+    min-height: 666px; //    height: 666pxpx; 
+    background-size: cover;
+    position: relative;
+    // background-repeat: round;
+    overflow-x: hidden;
+
+
+
+    .form-group {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h3 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.444444px;
+        color: $color-white;
+    }
+
+    .logo {
+        margin-top: 64px;
+        margin-bottom: 72px;
+    }
+
+    form {
+        
+        input {
+            background: $color-top;
+            border: 2px solid #366799;
+            height: 60px;
+
+
+        }
+
+       .btn {
+            background: $color-top;
+            border: 2px solid #366799;
+            height: 60px;
+            font-size: 24px;
+
+        }
+        .dropdown-toggle::before {
+            display: inline-block;
+            margin-left: .255em;
+            vertical-align: .255em;
+            content: "";
+            border-top: .3em solid;
+            border-right: .3em solid transparent;
+            border-bottom: 0;
+            border-left: .3em solid transparent;
+        }
+        .dropdown-toggle::after {
+            display: none!important;
+        }
+
+        ::placeholder {
+            color: $color-white !important;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        .form-check-inline {
+            margin-top: -16px !important;
+
+        }
+
+        .form-check-label {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: right;
+            letter-spacing: 0.4px;
+            color: $color-white;
+
+        }
+
+        .bbt {
+            margin-top: 45px;
+            background: linear-gradient(89.2deg, #FFDC25 0.14%, rgba(255, 138, 0, 0.73) 99.29%), #FFD90F;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+            border-radius: 50px;
+    
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 76px;
+            text-align: center;
+            letter-spacing: 1.35px;
+            color: $color-white;
+        }
+    }
+
+   
+
+}
+
+//section-option
+.section-option {
+    h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 59px;
+        text-align: center;
+
+        color: $color-white;
+    }
+
+    .option-img {
+        height: 70px;
+        width: 70px;
+        /* background-position: 50% 50%; */
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: auto;
+    }
+
+    .card-body {
+        p {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 145%;
+            color: $color-white;
+            width: 50%;
+            margin: auto;
+
+        }
+    }
+}
+
+//section-registr
+.section-registr {
+    h2 {
+        margin-top: 30px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 84px;
+        text-align: center;
+        color: $color-white;
+    }
+
+    span {
+        color: #FFD90F;
+    }
+
+    // p {
+    //     margin-top: 35px;
+    //     font-style: normal;
+    //     font-weight: 800;
+    //     font-size: 140px;
+    //     line-height: 182px;
+    //     color: #3E93E8;
+
+    //     // border: 2.8px solid #FFFFFF;
+    //     text-shadow: 0px 11.2px 14px rgba(0, 0, 0, 0.75);
+    // }
+
+
+    button {
+        margin-top: 30px;
+        background: linear-gradient(89.2deg, #FFDC25 0.14%, rgba(255, 138, 0, 0.73) 99.29%), #FFD90F;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 76px;
+        text-align: center;
+        letter-spacing: 1.35px;
+        color: white;
+    }
+}
+
+//section-all\
+.section-all {
+    padding-top: 30px;
+
+    .section-row {
+        border-top: 1px solid #423A4D;
+        border-bottom: 1px solid #423A4D;
+
+        .poker {
+            margin-top: 30px;
+        }
+
+        .casino {
+            margin-top: 14px;
+            margin-bottom: 40px;
+        }
+
+        // .col-4{
+        //     width: 30%!important;
+        // }
+
+    }
+
+    .opt {
+        background: #130921;
+        opacity: 0.4;
+        border: 1px solid $color-white;
+        box-sizing: border-box;
+        border-radius: 4px;
+        text-align: center;
+        width: 150px;
+        height: 40px;
+        padding: 0px;
+        margin-bottom: 14px;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .mr {
+        margin-top: 30px;
+    }
+
+    p {
+        margin-top: 20px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 0.4px;
+        color: #CCCCCC;
+    }
+
+}
+
+//media
+
+@media screen and(max-width: 430px) {
+    .section-start {
+
+        .img_1,
+        .img_2,
+        .img_3,
+        .img_4 {
+            display: none;
+        }
+
+        .girl-l {
+            position: absolute !important;
+            z-index: 50;
+            margin-left: -120px;
+            bottom: 0;
+
+        }
+
+        .girl-r {
+            position: absolute !important;
+            margin-left: 140px;
+            z-index: 30;
+            bottom: 0;
+        }
+
+        .start-center {
+            z-index: 100;
+        }
+        .dropdown-toggle::before{
+            margin-right: 130px!important;
+        }
+       
+        .form-group {
+            display: block !important;
+
+            input {
+                width: 100% !important;
+            }
+          
+           
+            .btn{
+                margin-top: 16px;
+                width: 100% !important;
+            }
+
+
+        }
+
+        button {
+            margin-bottom: 30px !important;
+        }
+
+        .form-group {
+            margin-bottom: 0px !important;
+        }
+
+        .logo {
+
+            margin-bottom: 200px
+        }
+
+    }
+
+    .section-registr {
+
+        .img_5,
+        .img_6,
+        .img_7,
+        .img_8 {
+            display: none;
+        }
+
+        button {
+            width: 80% !important;
+            margin-bottom: 30px;
+        }
+
+        // p{
+        //     font-size: 70px;
+        // }
+        .usd100 {
+            width: 290px;
+        }
+
+    }
+
+    .section-all {
+        .section-row {
+            border: none;
+        }
+
+        .poker-casino {
+            display: flex;
+            justify-content: space-between;
+
+            .casino {
+                margin: 0px;
+                height: 50px !important;
+                padding-right: 15px;
+                margin-bottom: 20px;
+            }
+
+            .poker {
+                margin: 0px;
+                height: 50px !important;
+                padding-left: 15px;
+            }
+
+        }
+
+        .opt {
+            width: 80px !important;
+            height: 30px !important;
+
+            img {
+                max-width: 80% !important;
+            }
+        }
+
+        .mr {
+            margin-top: 0px;
+        }
+
+        p {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}
+
+@media screen and(max-width: 780px) {
+    .section-start {
+        .row {
+            justify-content: center;
+        }
+
+        .img_1,
+        .img_2,
+        .img_3,
+        .img_4 {
+            display: none;
+        }
+    }
+
+    .section-registr {
+
+        .img_5,
+        .img_6,
+        .img_7,
+        .img_8 {
+            display: none;
+        }
+    }
+
+    .girl-l {
+        position: absolute !important;
+        z-index: 50;
+        margin-left: -140px;
+        bottom: 0;
+
+    }
+
+    .girl-r {
+        position: absolute !important;
+        margin-left: 150px;
+        z-index: 30;
+        bottom: 0;
+        justify-content: flex-end;
+    }
+
+    .start-center {
+        z-index: 100;
+    }
+
+    .section-registr {
+        button {
+            width: 60% !important;
+        }
+    }
+
+    .section-all {
+        .section-row {
+            border: none;
+        }
+
+        .poker-casino {
+            display: flex;
+            justify-content: space-between;
+
+            .casino {
+                margin: 0px;
+                height: 120px;
+                padding-right: 15px;
+                margin-bottom: 20px;
+            }
+
+            .poker {
+                margin: 0px;
+                height: 120px;
+                padding-left: 15px;
+            }
+        }
+
+        .opt {
+            width: 200px;
+            height: 50px;
+
+            img {
+                max-width: 80% !important;
+            }
+        }
+
+        .mr {
+            margin-top: 0px;
+        }
+
+        p {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}
+
+
